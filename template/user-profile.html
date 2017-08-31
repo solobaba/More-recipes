@@ -1,0 +1,82 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	  <title>User profile</title>
+
+	  <!-- CSS  -->
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	</head>
+	<body>
+	  <nav class="orange lighten-1" role="navigation">
+	      <ul class="right hide-on-med-and-down">
+	        <li><a href="recipe%20details.html">Home</a></li>
+        	<li><a href="favorite%20recipe.html">Favorite</a></li>
+        	<li><a href="top%20recipe.html#!">Top recipes</a></li>
+	      </ul>
+
+	      <ul id="nav-mobile" class="side-nav">
+	        <li><a href="recipe%20details.html">Home</a></li>
+        	<li><a href="favorite%20recipe.html">Favorite</a></li>
+        	<li><a href="top%20recipe.html#!">Top recipes</a></li>
+	      </ul>
+	      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+	    </div>
+	  </nav>
+	  <div class="section no-pad-bot" id="index-banner">
+	    <div class="container">
+	      <br><br>
+	      <div>
+	      <form>
+	      <h1 class="header center orange-text">Your profile information</h1>
+	      <br>
+	      <table width="398" border="0" align="left" cellpadding="0">
+                
+                <tr>
+                    <td width="82" valign="top"><div align="left">Fullame:</div></td>
+                    <td width="165" valign="top"><?php echo $fullname ?></td>
+                </tr>
+                
+                <tr>
+                    <td valign="top"><div align="left">Username:</div></td>
+                    <td valign="top"><?php echo $username ?></td>
+                </tr>
+
+                <tr>
+                    <td valign="top"><div align="left">Email:</div></td>
+                    <td valign="top"><?php echo $email ?></td>
+                </tr>
+                <tr>
+                    <td valign="top"><div align="left">Password:</div></td>
+                    <td valign="top"><?php echo $password ?></td>
+                </tr>
+                </table>
+                <div align="right"><a href="index.php">Logout</a></div>
+            </form>
+            </div>
+	  <br><br>
+
+	  <footer class="page-footer orange">
+	    <div class="container">
+	      <div class="row">
+	        
+	          <h5 class="white-text">Company Bio</h5>
+	          <p class="grey-text text-lighten-4">Food.com, is a modern food recipe and an active social network of home cooks who connect and share recipes, photos, cooking tips and food trends in real time.</p>
+
+	    <div class="footer-copyright">
+	      <div class="container" class="left">
+	      <em>for:</em><a class="orange-text text-lighten-3" href=recipe%20details.html> More recipes project</a>
+	      </div>
+	    </div>
+	  </footer>
+
+	  <!--  Scripts-->
+	  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	  <script src="js/materialize.js"></script>
+	  <script src="js/init.js"></script>
+
+	  </body>
+	</html>
